@@ -198,6 +198,7 @@ class Mellat {
         if (error) {
           return callback(error);
         }
+        console.log(result);
         return callback(null, { resCode: Number(result.return), rawResCode: result.return });
       });
     });
@@ -231,6 +232,7 @@ class Mellat {
         if (error) {
           return callback(error);
         }
+        console.log(result);
         return callback(null, { resCode: Number(result.return), rawResCode: result.return });
       });
     });
